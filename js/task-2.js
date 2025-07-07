@@ -1,6 +1,5 @@
 function makeArray(firstArray, secondArray, maxLength) {
   const newArray = firstArray.concat(secondArray);
-  // Eğer uzunluk maxLength'den büyükse diziyi maxLength kadar kısalt
   if (newArray.length > maxLength) {
     return newArray.slice(0, maxLength);
   }

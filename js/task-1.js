@@ -1,5 +1,4 @@
 function slugify(title) {
-  // title'ı küçük harfe çevir, boşluklardan böl, sonra tire ile birleştir
   return title.toLowerCase().split(" ").join("-");
 }
 
